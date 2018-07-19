@@ -196,7 +196,7 @@ startActivity(intent);
 
 * FLAG\_ACTIVITY\_CLEAR\_TOP
 
-    通常和 `FLAG_ACTIVITY_NEW_TASK` 配合使用，如果启动模式是 standard，那么该 Activity 实例和之上的所有实例都将出栈，系统会重新创建该 Activity 新的实例压入该栈中
+  通常和 `FLAG_ACTIVITY_NEW_TASK` 配合使用，如果启动模式是 standard，那么该 Activity 实例和之上的所有实例都将出栈，系统会重新创建该 Activity 新的实例压入该栈中
 
 ## 隐式启动
 

@@ -10,7 +10,7 @@ tags:
 
 ## 多进程
 
-### 创建多个进程
+### 创建多个进程阿斯顿发顺丰
 
 Android 中使用多进程的方式只有一种，就是给四大组件在 `AndroidManifest.xml` 配置 `android:process` 属性：
 

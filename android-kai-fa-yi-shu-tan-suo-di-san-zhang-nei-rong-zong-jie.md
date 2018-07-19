@@ -949,7 +949,7 @@ private DecorView mDecor;
 
 首先需要注意的是 `ViewStub` 不能应用含有 `merge` 标签的布局，否则会抛出异常：
 
-> android.view.InflateException:  can be used only with a valid ViewGroup root and attachToRoot=true
+> android.view.InflateException: can be used only with a valid ViewGroup root and attachToRoot=true
 
 `ViewStub` 常用的场景是引用那些不常用的布局，比如用户注册的时候，经常会有一些必选项和一些可选项，这些可选项可能需要手动点击某个按钮才能显示出来，如果开始用 `GONE` 或者 `INVISIBLE`，然后再用 `VISIBLE` 显示也能实现这样的功能，但是用这种处理方式时，这个布局初始化的时候已经把所有的元素加载了，这个时候使用 `ViewStub` 就能优化这点
 
