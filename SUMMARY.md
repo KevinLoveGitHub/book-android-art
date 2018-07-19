@@ -1,10 +1,5 @@
 # Table of contents
 
 * [前言](README.md)
-<<<<<<< HEAD
-* [第一页](page/01/di-yi-ye.md)
-=======
-* [第一页](di-yi-ye.md)
-* [第二页](di-er-ye.md)
->>>>>>> fcefd666e0c599f5c79e1328699027aa819c892b
-
+* [第一章](page/01/《Android-开发艺术探索》-第一章内容总结.md)
+* [第二章](page/02/《Android-开发艺术探索》-第二章内容总结.md)
